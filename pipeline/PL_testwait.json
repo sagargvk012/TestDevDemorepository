@@ -1,0 +1,17 @@
+{
+	"name": "PL_testwait",
+	"properties": {
+		"activities": [
+			{
+				"name": "testwait",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": []
+	}
+}
