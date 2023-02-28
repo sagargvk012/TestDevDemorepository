@@ -1,0 +1,7 @@
+{
+	"name": "AzureSqlDatabase103",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/4f4c5721-60ea-48fc-83b1-17d5b25d011b/resourceGroups/azuredatafactoryresource01/providers/Microsoft.Sql/servers/testsqlserver005",
+		"groupId": "sqlServer"
+	}
+}

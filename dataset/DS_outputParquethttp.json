@@ -1,0 +1,21 @@
+{
+	"name": "DS_outputParquethttp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLSconnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "parquetfiles",
+				"fileSystem": "refined"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
